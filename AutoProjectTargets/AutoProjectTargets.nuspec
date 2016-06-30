@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>AutoProjectTargets</id>
+    <version>1.0.0</version>
+    <title>AutoProjectTargets</title>
+    <authors>Ryan J. Shaw</authors>
+    <licenseUrl>https://github.com/ryanjshaw/auto-project-targets/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/ryanjshaw/auto-project-targets</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>NuGet package to automatically import an MSBuild targets file without manually editing your project files</description>
+    <copyright>Copyright 2016</copyright>
+    <tags>msbuild visualstudio targets import</tags>
+  </metadata>
+  <files>
+    <file src="readme.txt" target="" />
+    <file src="build\*" target="build" />
+    <file src="content\*" target="content" />
+  </files>
+</package>

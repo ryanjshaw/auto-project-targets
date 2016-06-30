@@ -1,0 +1,10 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<!-- If this file is correctly included into the project, the custom logic to break the 
+       build in AutoProjectTargets.Test will be circumvented and the build will succeed.
+       If the file is not correctly included into the project, the build will fail. -->
+  <Target Name="AllowBuildToPass" BeforeTargets="CheckAutoProjectTargets">
+    <PropertyGroup>
+      <ProjectTargetsIncluded>true</ProjectTargetsIncluded>
+    </PropertyGroup>
+  </Target>
+</Project>
